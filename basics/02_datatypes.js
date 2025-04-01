@@ -23,3 +23,11 @@ symbol
 console.log(typeof age); //number
 console.log(typeof undefined); //undefined
 console.log(typeof null); //object
+
+console.log(null >0);//false
+console.log(null ==0);//false
+console.log(null >= 0);//false
+
+//The reason is that an equality check == and comparison ≤ work differently.
+/*Comparisons convert null to a number, treating it as zero.
+thats why (3) null≥0 is true and (1) null>0 is false.*/
