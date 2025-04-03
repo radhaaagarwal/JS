@@ -18,4 +18,4 @@ console.log(1+2+"2") //32
 console.log(+true) // 0+ = 1
 
 //comparison
-console.log("2">= 2)//false
+console.log("2">= 2)
