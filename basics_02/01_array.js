@@ -36,3 +36,4 @@ console.log("B", myArray1);
 const myn2 = myArray1.splice(1,3)
 console.log("C", myArray1);
 console.log(myn2);
+
